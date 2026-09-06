@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sandbox & Testing Environment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>🧪 Web Sandbox & Testing</h1>
+        <p>A simple dashboard to test layout, scripts, and interactions.</p>
+        <button id="theme-toggle">Toggle Theme 🌙</button>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+        
+        <!-- Component Test Section -->
+        <section class="card">
+            <h2>1. Element Layout Test</h2>
+            <p>Use this section to verify typography, buttons, and spacing.</p>
+            <div class="button-group">
+                <button class="btn btn-primary" id="btn-alert">Trigger Alert</button>
+                <button class="btn btn-secondary" id="btn-log">Log to Console</button>
+            </div>
+        </section>
+
+        <!-- Dynamic Interaction Section -->
+        <section class="card">
+            <h2>2. Interactive Form Test</h2>
+            <p>Type below to see the JavaScript data binding in real time.</p>
+            <div class="form-group">
+                <input type="text" id="test-input" placeholder="Type something here...">
+                <p class="output-text">Live Output: <span id="output-target">...</span></p>
+            </div>
+        </section>
+
+        <!-- Async/API Section -->
+        <section class="card">
+            <h2>3. API Simulator</h2>
+            <p>Test asynchronous JavaScript fetching behavior.</p>
+            <button class="btn btn-api" id="btn-fetch">Fetch Mock Data</button>
+            <div id="api-status" class="status-box">Ready to fetch...</div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Testing Environment Page &copy; 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
